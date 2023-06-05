@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary-color: #B41916;
+    --secondary-color: #E52919;
+    --tertiary-color: #621C19;
+}
+.navBarr2{
+    background-color: var(--primary-color) !important;
+}
+.posterImage{
+    background-image: url("../cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
+.aboutCard{
+    background-color: rgba(240, 248, 255, 0.589);
+    padding: 20px;
+    position: relative;
+    margin: 0 150px;
+    top: 20vh;
+}
+.aboutCard .aboutCardTitle{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.aboutCard .aboutCardText{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin: 10px 50px;
+    color: rgb(75, 72, 72);
+}
+.Custom_navBar{
+    background-image: url("../cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.navBarr{
+    background-color: transparent;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.navBarr .logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.navBarr ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBarr ul li{
+    list-style: none;
+    margin: 0px 5px;
+}
+.navBarr ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+}
+.navBarr ul li a:hover{
+    background-color: rgba(182, 179, 179, 0.63);
+    border-radius: 50px;
+}
+.navBarr .active{
+    background-color: rgba(182, 179, 179, 0.63);
+    border-radius: 50px;
+}
+.container_objects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 20px;
+    margin-top: 200px;
+}
+.container_objects .main{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.container_objects .subMain{
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 50px;
+    width: 850px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.findEventBtn{
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+.findEventBtn a , .hostEventBtn a{
+    text-decoration: none;
+    color: black;
+}
+.hostEventBtn{
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+}
+.signUpScreen{
+    display: float;
+    margin: 100px;
+}
+.signUpScreen .leftSide{
+    float: left;
+    background-color: rgba(240, 248, 255, 0.589);
+    opacity: 0.9;
+    padding: 50px;
+}
+.signUpScreen .leftSide .head{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.signUpScreen .leftSide .input input{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+}
+.signUpScreen .leftSide .terms{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+.signUpScreen .leftSide .signUpBtn{
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.signUpScreen .leftSide .signUpBtn a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.signUpScreen .leftSide .signUpBtn:hover
+{
+    color: white;
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+}
+.signUpScreen .rightSide{
+    float: right;
+}
+.signUpScreen .rightSide .testCards{
+    padding: 15px 15px;
+    background-color: rgba(240, 248, 255, 0.589);
+    margin: 20px;
+    border-radius: 50px;
+}
+.signUpScreen .rightSide .testCards .cardHead img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.signUpScreen .rightSide .testCards .cardHead{
+    display: inline-block;
+}
+.signUpScreen .rightSide .testCards .cardBody{
+    display: inline-block;
+    width: 400px;
+    color: white;
+    font-weight: bold;
+}

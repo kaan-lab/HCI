@@ -1,0 +1,112 @@
+:root{
+    --primary-color: #B41916;
+    --secondary-color: #E52919;
+    --tertiary-color: #621C19;
+}
+.btn{
+    height: 4rem;
+    width: 14rem;
+    background-color:var(--secondary-color);
+    color:#fff;
+    font-size: 2rem;
+    cursor: pointer;
+    border:none;
+    outline: none;
+}
+.btn:hover{
+    opacity: .8;
+    letter-spacing: .1rem;
+}
+.gallery{
+    min-height: 100vh;
+}
+.gallery .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1.5rem 0;
+    list-style: none;
+}
+
+.gallery .controls .btn{
+    margin:2rem;
+    line-height: 4rem;
+    text-align: center;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.gallery .controls .btn.button-active{
+    background:#333;
+}
+
+.gallery .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .box{
+    margin:1rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    transition: all .3s ease;
+}
+
+.gallery .image-container .box img{
+    width: 700px;
+    height: 300px;
+    object-fit: contain;
+}
+.gallery .image-container .box  .card-body h3{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.gallery .image-container .box  .card-body .links {
+    margin-top: 20px;
+}
+.gallery .image-container .box  .card-body .links a{
+    margin-top: 20px!important;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.gallery .image-container .box  .card-body{
+    padding:1rem;
+    background-color: rgb(84, 84, 209);
+    color: white;
+}
+
+.gallery .image-container .box:hover .image{
+    background:#ccc;
+}
+
+.gallery .image-container .box .info{
+    width: 100%;
+}
+
+.gallery .image-container .box .info h3{
+    font-size: 2rem;
+    color:var(--blue);
+    padding:1rem;
+}
+
+.gallery .image-container .box .info .subInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: .1rem solid rgba(0,0,0,.3);
+    padding:1rem;
+}
+
+.gallery .image-container .box .info .subInfo .price{
+    color:#ff3300;
+    font-size: 2rem;
+}
+
+.gallery .image-container .box .info .subInfo .stars i{
+    color:orange;
+    font-size: 1.5rem;
+}
